@@ -1,0 +1,7 @@
+Keys
+Application ID
+584691
+Access Key
+rAieM468A0eC5ZC7ON_gzBw8FOYaLvG9fJNp7vausOk
+Secret key
+zQezstStP02OebBfsIhn9HJrhWSTVFnEm4q5RwL1zGw
