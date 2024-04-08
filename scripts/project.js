@@ -1,9 +1,10 @@
-// script.js
-document.addEventListener('DOMContentLoaded', () => {
+
+  // JavaScript Code
+  document.addEventListener('DOMContentLoaded', () => {
     const albumContainer = document.getElementById('album');
-  
+
     // Fetch random photos from Unsplash API
-    fetch('https://api.unsplash.com/photos/random?count=10&client_id=YOUR_ACCESS_KEY')
+    fetch('https://api.unsplash.com/photos/random?count=14&client_id=rAieM468A0eC5ZC7ON_gzBw8FOYaLvG9fJNp7vausOk')
       .then(response => response.json())
       .then(data => {
         // Display photos in the album
@@ -19,4 +20,3 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(error => console.error('Error fetching photos:', error));
   });
-  
